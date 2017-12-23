@@ -16,11 +16,11 @@ To host the game on *NIX, use command `./dunge [port]`. To connect to a hosted g
 Gameplay
 --------
 
-Command          |Description
+Command           |Description
 -----------------------------
-`use    [item]`  |Use specified item, items that are equipable, have to be `take`n at first, for instance, you can use doors without equiping them
-`take   [item]`  |Equip specified item, not all items are equipable though
-`drop   [item]`  |Drop specified item
-`hold   [item]`  |Take one of your equipped items to your hand, in order to help or attack the others with it
-`attack [player]`|"Attack" specified player, with the item you currenlty hold in hand, if it's food or bandage, you'll feed or heal him
-`exit`           |Exit the game (by commiting suicide)
+ `use    [item]`  |Use specified item, items that are equipable, have to be `take`n at first, for instance, you can use doors without equiping them
+ `take   [item]`  |Equip specified item, not all items are equipable though
+ `drop   [item]`  |Drop specified item
+ `hold   [item]`  |Take one of your equipped items to your hand, in order to help or attack the others with it
+ `attack [player]`|"Attack" specified player, with the item you currenlty hold in hand, if it's food or bandage, you'll feed or heal them
+ `exit`           |Exit the game (by commiting suicide)
