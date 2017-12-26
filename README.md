@@ -11,7 +11,11 @@ Plot of the game unintentionally reminds plot of the action movie Die Hard, you 
 Running the game
 ----------------
 
-To host the game on *NIX, use command `./dunge [port]`. To connect to a hosted game use `netcat` or `telnet` from any operating system.
+To compile the game on *NIX, use command `cc -o dunge *.c -pthread`
+
+To host it, use command `./dunge [port]`.
+
+To connect to an already hosted game use `netcat` or `telnet`. This should work on any operating system.
 
 Gameplay
 --------
